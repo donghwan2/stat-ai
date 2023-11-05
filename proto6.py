@@ -29,6 +29,7 @@ from langchain.vectorstores import Chroma
 
 ### ★★★ 헤드 ★★★
 st.markdown("# 통계-ai")
+st.markdown("### 통계 관련된 질문을 해주세요!")
 
 
 ### st.session_state에 대화 내용 저장
