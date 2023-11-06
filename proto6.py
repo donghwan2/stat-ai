@@ -36,7 +36,7 @@ st.markdown("### 통계 관련된 질문을 해주세요!")
 
 # 모델 초기화 with st.session_state
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo-16k"         # LLM 모델 설정 : "gpt-3.5-turbo", "gpt-4"
+    st.session_state["openai_model"] = "gpt-4"         # LLM 모델 설정 : "gpt-3.5-turbo", , "gpt-3.5-turbo-16k", "gpt-4"
 
 # 대화 초기화 with st.session_state
 if "messages" not in st.session_state:
