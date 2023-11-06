@@ -111,7 +111,7 @@ if question := st.chat_input("What is up?"):   # ★★★ 사용자 인풋 창 
 
         ## RetrievalQA 구성하기
         qa_chain = RetrievalQA.from_chain_type(
-            llm=OpenAI(), 
+            llm=OpenAI(max_tokens = 1000), 
             chain_type="stuff", 
             retriever=retriever, 
             return_source_documents=True)
